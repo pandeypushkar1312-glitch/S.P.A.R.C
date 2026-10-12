@@ -1,0 +1,25 @@
+{
+  "dock": {
+    "id": "dock-a",
+    "name": "solar dock a (academic quad)",
+    "x_m": 0.0,
+    "y_m": 0.0
+  },
+  "waypoints": [
+    { "id": 0, "x_m": 0.0, "y_m": 0.0, "label": "dock base" },
+    { "id": 1, "x_m": 5.0, "y_m": 1.2, "label": "dock ramp exit" },
+    { "id": 2, "x_m": 15.0, "y_m": 3.0, "label": "corridor bend a" },
+    { "id": 3, "x_m": 25.0, "y_m": 2.8, "label": "lab walkway" },
+    { "id": 4, "x_m": 40.0, "y_m": 5.5, "label": "atrium entrance" },
+    { "id": 5, "x_m": 55.0, "y_m": 8.0, "label": "study lounge turn" },
+    { "id": 6, "x_m": 70.0, "y_m": 6.2, "label": "bench cluster" },
+    { "id": 7, "x_m": 85.0, "y_m": 4.0, "label": "library walkway" },
+    { "id": 8, "x_m": 100.0, "y_m": 1.5, "label": "courtyard end" }
+  ],
+  "call_points": [
+    { "id": "cp-1", "name": "lab walkway / desk 04", "x_m": 25.0, "y_m": 2.8, "distance_m": 25, "est_travel_s": 83 },
+    { "id": "cp-2", "name": "atrium coffee tables", "x_m": 40.0, "y_m": 5.5, "distance_m": 41, "est_travel_s": 136 },
+    { "id": "cp-3", "name": "study lounge cubicles", "x_m": 55.0, "y_m": 8.0, "distance_m": 56, "est_travel_s": 185 },
+    { "id": "cp-4", "name": "library courtyard benches", "x_m": 85.0, "y_m": 4.0, "distance_m": 86, "est_travel_s": 286 }
+  ]
+}

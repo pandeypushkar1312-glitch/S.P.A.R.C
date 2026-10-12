@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+build/
+
+# Logs & temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Flutter & Dart artifacts (voltride_app)
+voltride_app/build/
+voltride_app/.dart_tool/
+voltride_app/.flutter-plugins
+voltride_app/.flutter-plugins-dependencies
+voltride_app/.packages
+voltride_app/ios/Pods/
+voltride_app/ios/.symlinks/
+voltride_app/android/.gradle/
+voltride_app/android/local.properties
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

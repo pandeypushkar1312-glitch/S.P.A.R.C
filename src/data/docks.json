@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dock-a",
+    "name": "solar dock a (academic quad)",
+    "status": "live",
+    "rover_docked": true,
+    "panel_watts": 10,
+    "panel_v": 17.8,
+    "charge_a": 0.85,
+    "stage": "cc",
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "description": "10 W solar panel with XL4015 CC/CV charger (12.6 V, ~1 A) and pogo-pin self-aligning funnel."
+  },
+  {
+    "id": "dock-b",
+    "name": "dock b (hostel walkway hub)",
+    "status": "planned",
+    "rover_docked": false,
+    "panel_watts": 20,
+    "panel_v": 0.0,
+    "charge_a": 0.0,
+    "stage": "idle",
+    "x_m": 60.0,
+    "y_m": 12.0,
+    "description": "planned solar/wind harvesting hub with inductive wireless dock alignment."
+  },
+  {
+    "id": "dock-c",
+    "name": "dock c (library terrace station)",
+    "status": "planned",
+    "rover_docked": false,
+    "panel_watts": 40,
+    "panel_v": 0.0,
+    "charge_a": 0.0,
+    "stage": "idle",
+    "x_m": 120.0,
+    "y_m": 4.0,
+    "description": "planned high-capacity solar array serving autonomous fleet routing."
+  }
+]
