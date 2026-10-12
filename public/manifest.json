@@ -1,14 +1,14 @@
 {
   "name": "S.P.A.R.C. — Solar Powered Autonomous Roaming Charger",
   "short_name": "S.P.A.R.C.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FAFAFA",
   "theme_color": "#FAFAFA",
   "description": "A small autonomous rover that roams a pre-taught route carrying a power bank, charges people's phones on request, and returns to a solar-powered dock to recharge itself.",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "./icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml"
     }
